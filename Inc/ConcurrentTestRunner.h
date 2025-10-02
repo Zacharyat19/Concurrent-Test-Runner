@@ -27,7 +27,6 @@ struct TestResult {
     std::string output;      // captured stdout/stderr
 };
 
-// Thread-safe task queue for test cases
 class TestQueue {
 public:
     void push(const TestCase& test);
