@@ -49,7 +49,7 @@ public:
     std::vector<TestResult> getResults() const;
 
 private:
-    void workerThread();  // function executed by each worker
+    void workerThread();
     TestResult executeTest(const TestCase& test);
 
     int numThreads_;
