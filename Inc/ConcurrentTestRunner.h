@@ -39,7 +39,6 @@ private:
     std::condition_variable cv_;
 };
 
-// Main runner class
 class ConcurrentTestRunner {
 public:
     ConcurrentTestRunner(int numThreads);
