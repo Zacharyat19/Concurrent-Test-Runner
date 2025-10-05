@@ -11,7 +11,6 @@
 #include <functional>
 #include <chrono>
 
-// Represents a single test case
 struct TestCase {
     std::string name;        // test name
     std::string command;     // shell command or executable to run
