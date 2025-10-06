@@ -17,7 +17,6 @@ struct TestCase {
     int timeoutSeconds;      // max allowed runtime
 };
 
-// Represents the result of a test case
 struct TestResult {
     std::string name;
     bool passed;
