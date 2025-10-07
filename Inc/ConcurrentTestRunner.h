@@ -58,4 +58,4 @@ private:
     mutable std::mutex resultsMtx_;
 };
 
-#endif // CONCURRENT_TEST_RUNNER_H
+#endif
