@@ -22,7 +22,7 @@ struct TestResult {
     bool passed;
     int exitCode;
     double runtime;          // seconds
-    std::string output;      // captured stdout/stderr
+    std::string output;
 };
 
 class TestQueue {
