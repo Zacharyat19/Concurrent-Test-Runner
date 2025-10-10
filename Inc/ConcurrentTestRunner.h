@@ -21,7 +21,7 @@ struct TestResult {
     std::string name;
     bool passed;
     int exitCode;
-    double runtime;          // seconds
+    double runtime;
     std::string output;
 };
 
