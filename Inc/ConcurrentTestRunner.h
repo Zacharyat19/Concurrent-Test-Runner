@@ -14,7 +14,7 @@
 struct TestCase {
     std::string name;        // test name
     std::string command;     // shell command or executable to run
-    int timeoutSeconds;      // max allowed runtime
+    int timeoutSeconds;
 };
 
 struct TestResult {
