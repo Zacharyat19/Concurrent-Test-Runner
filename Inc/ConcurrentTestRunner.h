@@ -13,7 +13,7 @@
 
 struct TestCase {
     std::string name;        // test name
-    std::string command;     // shell command or executable to run
+    std::string command;
     int timeoutSeconds;
 };
 
