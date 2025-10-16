@@ -12,7 +12,7 @@
 #include <chrono>
 
 struct TestCase {
-    std::string name;        // test name
+    std::string name;
     std::string command;
     int timeoutSeconds;
 };
