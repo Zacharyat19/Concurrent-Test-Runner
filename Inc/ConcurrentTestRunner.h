@@ -11,7 +11,8 @@
 #include <functional>
 #include <chrono>
 
-struct TestCase {
+struct TestCase 
+{
     std::string name;
     std::string command;
     int timeoutSeconds;
