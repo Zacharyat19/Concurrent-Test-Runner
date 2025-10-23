@@ -18,7 +18,8 @@ struct TestCase
     int timeoutSeconds;
 };
 
-struct TestResult {
+struct TestResult 
+{
     std::string name;
     bool passed;
     int exitCode;
