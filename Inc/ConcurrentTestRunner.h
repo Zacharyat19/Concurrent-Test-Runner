@@ -27,7 +27,8 @@ struct TestResult
     std::string output;
 };
 
-class TestQueue {
+class TestQueue 
+{
 public:
     void push(const TestCase& test);
     bool pop(TestCase& test);
