@@ -40,7 +40,8 @@ private:
     std::condition_variable cv_;
 };
 
-class ConcurrentTestRunner {
+class ConcurrentTestRunner 
+{
 public:
     ConcurrentTestRunner(int numThreads);
     ~ConcurrentTestRunner();
